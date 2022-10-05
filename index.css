@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: spa;
+}
+header {
+    align-items: center;
+    width: 100vw;
+}
+header > div > a {
+    font-size: size 3em;
+}
+header > nav {
+    flex-direction: row;
+    background-color: blue;
+    height: 20vh;
+}
+
+header > section {
+    background-origin: orange;
+}
